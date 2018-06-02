@@ -6,9 +6,20 @@ const {
 const path = require('path')
 const url = require('url')
 
+const commands = process.argv
+var env = {}
+for (let i = 0; i < commands.length; i++) {
+    const element = commands[i];
+
+    if (~['client', '-tc', 'client_id', 'twitch_cleint', 'id'].indexOf(element)) {
+        env.client_id = commands[i + 1]
+    }
+}
+
 let win
 
 function initApp() {
+    exports.env = env
     createWindows()
 }
 

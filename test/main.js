@@ -1,9 +1,10 @@
 'use strict'
 
 const twitch = require('../twitch')
+const env = require('electron').remote.require('./app.js').env
 
 twitch.init({
-    client_id: 'm4j7uf7x6f4mt1m815hvaxychxfg4y',
+    client_id: env.client_id,
     debug: true
 })
 
