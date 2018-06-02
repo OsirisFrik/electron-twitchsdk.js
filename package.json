@@ -1,0 +1,25 @@
+{
+  "name": "electron-twitchsdk.js",
+  "version": "0.0.1",
+  "description": "electron twitch sdk",
+  "main": "twitch.js",
+  "scripts": {
+    "test": "electron ./test/app.js -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsirisFrik/electron-twitchsdk.js.git"
+  },
+  "keywords": [
+    "electron",
+    "js",
+    "twitch",
+    "sdk"
+  ],
+  "author": "OsirisFrik <osiris@frikdev.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsirisFrik/electron-twitchsdk.js/issues"
+  },
+  "homepage": "https://github.com/OsirisFrik/electron-twitchsdk.js#readme"
+}
