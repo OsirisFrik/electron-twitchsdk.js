@@ -9,7 +9,12 @@ twitch.init({
 })
 
 function login() {
-    twitch.popup()
+    twitch.login({scope: ['user_read', 'channel_read', 'openid']}, (err, status) => {
+        if (err) {
+            return alert('ERROR')            
+        }
+        alert(`Hola ${status.login}`)
+    })
 }
 
 window.onload = function () {
