@@ -4,7 +4,7 @@
  * @file Main of the Twitch SDK
  * @module electron-twitchsdk.js
  * @version 0.1.0
- * @author OsirisFrik <osiris@frikdev.com> <https://github.com/OsirisFrik>
+ * @author OsirisFrik <osiris@frikdev.com> https://github.com/OsirisFrik
  */
 
 /**
