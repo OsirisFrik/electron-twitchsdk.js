@@ -1,5 +1,5 @@
 # Electron Twitch SDK JS
-The project has based on [Twitch Node.js SDK](https://github.com/justintv/twitch-js-sdk) and [twitch-sdk](https://www.npmjs.com/package/twitch-sdk), updated to work with the [new Twitch API](https://dev.twitch.tv/docs) to [electron](https://electron.io)
+The project has based on [Twitch Javascript SDK](https://github.com/justintv/twitch-js-sdk) and [twitch-sdk](https://www.npmjs.com/package/twitch-sdk), updated to work with the [new Twitch API](https://dev.twitch.tv/docs) to [electron](https://electron.io)
 
 ## Install
 By NPM
