@@ -30,9 +30,14 @@ function logout() {
     })
 }
 
-twitch.events.addListener('auth.login', status => {
-    console.log('hola')
+twitch.events.addListener('twitch.login', status => {
     localStorage.setItem('twitch', JSON.stringify(status))
+    console.log('twitch login event')    
+})
+
+twitch.events.addListener('twitch.logout', (err, data) => {
+    console.log('twitch logout event');
+    
 })
 
 window.onload = function () {
