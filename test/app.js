@@ -14,6 +14,10 @@ for (let i = 0; i < commands.length; i++) {
     if (~['client', '-tc', 'client_id', 'twitch_cleint', 'id'].indexOf(element)) {
         env.client_id = commands[i + 1]
     }
+
+    if (~['scopes', 'scope', 't_scope'].indexOf(element)) {        
+        env.scopes = JSON.parse(commands[i + 1])
+    }
 }
 
 let win
