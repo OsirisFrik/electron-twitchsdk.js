@@ -8,7 +8,7 @@ $ npm install -s electron-twitchsdk.js
 ```
 ## Import
 ```
-const Twitch = require('electron-twitchsdj.js')
+const Twitch = require('electron-twitchsdk.js')
 ```
 or
 ```
