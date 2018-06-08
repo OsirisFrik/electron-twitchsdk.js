@@ -1,6 +1,6 @@
 {
   "name": "electron-twitchsdk.js",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "electron twitch sdk",
   "main": "twitch.js",
   "scripts": {
